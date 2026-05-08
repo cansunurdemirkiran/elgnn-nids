@@ -1,0 +1,25 @@
+# ELGNN-NIDS Requirements
+
+# Core ML/DL Framework
+torch>=1.12.0
+torch-geometric>=2.0.0
+torch-scatter>=2.0.0
+torch-sparse>=0.6.0
+torch-cluster>=1.6.0
+
+# Data Processing
+pandas>=1.3.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# Explainable AI
+shap>=0.41.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+tqdm>=4.62.0
+
+# Optional: For CUDA support
+# torch-audio  # Uncomment if using audio features
+# torchvision   # Uncomment if using additional vision features
